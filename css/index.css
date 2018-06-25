@@ -1,0 +1,249 @@
+.sub-nav{
+position: relative;
+}
+
+.sub-nav a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 644px;
+    width: 100%;
+    background: url("../images/subbanner.jpg")no-repeat center top;
+}
+
+
+.main{
+    position: relative;
+}
+
+.main-solider{
+    float: left;
+    width: 735px;
+    height: 454px;
+    margin: 12px 0 0 220px;
+    position: relative;
+}
+
+.main-news{
+    float: right;
+    height: 466px;
+    width: 250px;
+}
+
+.main-news-top{
+    height: 372px;
+    width: 248px;
+    border: 1px solid #e4e4e4;
+    margin: 12px 0 5px 0;
+}
+
+.main-solider ul{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -66px;
+}
+
+.main-solider li{
+    float: left;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+    background: #3e3e3e;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.arrow a {
+    position:absolute;
+    top:50%;
+    font:400 22px/62px "simsun";
+    width: 28px;
+    height: 62px;
+    background: rgba(0,0,0,0.1);
+    color: black;
+    text-align: center;
+    margin-top: -31px;
+    border-radius: 0 10px 10px 0;
+}
+
+.arrow a:hover{
+    background: rgba(0,0,0,0.6);
+}
+
+
+/* .arrow-left a{
+    left: 0;
+} */
+
+.arrow .arrow-left{
+    left:0;
+}
+
+.arrow .arrow-right {
+    right:5px;
+    border-radius:  10px 0 0 10px ;
+}
+
+.main-solider .admin{
+    background: red;
+}
+
+.main-news-top-faster{
+    height: 163px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.main-news-top-title{
+    height: 32px;
+    line-height: 32px;
+    padding:0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.main-news-top-title h3{
+    float: left;
+    font:400 16px/32px "mircosoft Yahei";
+}
+
+.main-news-top-title a{
+    float:right;
+    font-family: "consolas";
+}
+
+.main-news-top-content {
+    padding: 5px 0 0 15px;
+}
+
+.main-news-top-content li{
+line-height: 20px;
+
+}
+.main-news-top-content span{
+font-weight: 700;
+margin-right: 5px;
+
+}
+.main-news-bottom li{
+    position: relative;
+    height: 70px;
+    width: 62px;
+    border: 1px solid #e8e8e7;
+    float: left;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    border-top:0;
+}
+
+.main-news-bottom ul{
+    width: 260px;
+}
+
+.main-news-bottom{
+    overflow: hidden;
+}
+
+.main-news-bottom a{
+    display: block;
+    height: 30px;
+    width: 62px;
+    padding-top:40px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.main-news-bottom i{
+    background: url("../images/fly.png")no-repeat ;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 13px;
+    left: 18px;
+
+}
+
+.main-news-bottom .main-news-bottom-icon2{
+    background-position: 0 -25px;
+}
+
+.main-news-bottom .main-news-bottom-icon3{
+    background-position: 0 -50px;
+}
+.main-news-bottom .main-news-bottom-icon4{
+    background-position: 0 -75px;
+}
+.main-news-bottom .main-news-bottom-icon5{
+    background-position: 0 -100px;
+}
+.main-news-bottom .main-news-bottom-icon6{
+    background-position: 0 -125px;
+}
+
+.main-news-bottom .main-news-bottom-icon7{
+    background-position: 0 -150px;
+}
+.main-news-bottom .main-news-bottom-icon8{
+    background-position: 0 -175px;
+}
+
+.main-news-bottom .main-news-bottom-icon9{
+    background-position: 0 -250px;
+}
+
+.main-news-bottom .main-news-bottom-icon10{
+    background-position: 0 -200px;
+}
+.main-news-bottom .main-news-bottom-icon11{
+    background-position: 0 -275px;
+}
+
+.main-news-bottom .main-news-bottom-icon12{
+    background-position: 0 -250px;
+}
+
+.hot{
+    background: url("../images/2.png")no-repeat  right top;
+   
+}
+
+.cool{
+    background: url("../images/3.png")no-repeat  43px 0;
+}
+
+.today-left{
+    float: left;
+}
+
+.today{
+    position: relative;
+    padding: 10px 0 20px;
+}
+
+.today-left a{
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url("../images/pic1.jpg");
+}
+
+.today-right{
+   position: relative;
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.today-right ul{
+ width: 1100px;
+}
+
+.today-right li{
+    float: left;
+    margin-right: 1px;
+    
+}

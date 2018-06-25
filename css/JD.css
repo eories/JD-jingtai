@@ -1,0 +1,369 @@
+.content{
+    background: #f1f1f1;
+}
+
+
+.nav{
+    position: relative;
+    width:100%;
+    height:30px ;
+    background: #f1f1f1;
+    line-height:30px;
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.center,.lr .fore{
+    position: relative;
+    padding:0 25px 0 10px;
+}
+
+.lr .fore:hover{
+    color:red;
+}
+
+.center:hover{
+    background: #fff;
+}
+
+.center i,.fore i{
+    position: absolute;
+    height: 7px;
+    width: 15px;
+    right: 8px;
+    top:12px;
+    overflow: hidden;
+    
+    
+}
+
+.center s,.fore s{
+    position: absolute;
+    top:-14px;
+    height: 15px;
+    width: 15px;
+    right:0;
+}
+
+.lf{
+    float: left;
+    width: 121px;
+    height:30px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+
+
+.lr{
+    float: right;
+    margin-right: 20px;
+
+    
+}
+
+
+
+.lr li{
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.lr .line{
+    width: 1px;
+    height: 12px;
+    background: #DDD;
+    margin-top: 9px;
+    padding:0;
+}
+
+.free{
+    color:red;
+    display: block;
+    float: right;
+    padding:0 10px;
+}
+
+.lr .jd-tel{
+
+    padding-left: 25px;
+}
+
+.lr .jd-tel span{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top:5px;
+    left: 6px;
+    background: url("../images/tel.png")
+
+}
+
+.top-banner{
+    background: #42C5FB;
+ 
+}
+
+.tb{
+    position: relative;
+}
+
+.banner-close{
+    position: absolute;
+    top:0px;
+    right:0px;
+    background: url("../images/close-banner.png")no-repeat;
+    width: 19px;
+    height: 19px;
+}
+
+.banner-logo{
+    float: left;
+    width: 362px;
+    height: 60px; 
+    padding: 20px 0;
+}
+.banner-logo a{
+    text-indent: -9999em;
+    display: block;
+    width: 270px;
+    height: 60px;
+    background: url("../images/logo.png")no-repeat;
+}
+
+.search-input{
+    float: left;
+    width: 538px;
+    height: 36px;
+    padding-top:25px; 
+    
+  
+}
+.search-input input{
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    float: left;
+    padding-left: 4px;
+    border-right:0;
+    font:400 14px/32px "mircosoft yahei";
+    color:rgb(153,153,153)
+}
+
+.search-input button{
+    width: 82px;
+    height: 36px;
+    background: #B61D1D;
+    color: #f1f1f1;
+}
+
+.search-car{
+    position: relative;
+    float: right;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    margin: 25px 65px 0 0; 
+    border: 1px solid #dfdfdf;
+    background-color: #f9f9f9;  
+    padding-left:43px;
+}
+
+
+
+
+.searchMore{
+    float: left;
+    line-height: 28px;
+    height: 28px;
+    width: 530px;
+
+}
+
+.searchMore a {
+    margin-right: 8px;
+    font-family: "SimSun";
+}
+
+.icon1{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: url("../images/tel.png")0 -58px;
+    top:8px;
+    left: 15px;
+}
+
+.icon2{
+    position: absolute;
+    right:10px;
+    font-family: "SimSun";
+    color: #999;
+}
+
+.icon3{
+    position: absolute;
+    top:-5px;
+    width: 16px;
+    height: 14px;
+    background: #c81623;
+    text-align: center;
+    line-height: 14px;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+
+.footer-nav-solgan{
+    position:relative;
+    height: 94px;
+    width: 100%;
+    background: #F5F5F5;
+    margin-bottom: 10px;
+}
+
+.foot-slogan-pic{
+    position: absolute;
+    top:20px;
+    left:50%;
+}
+
+.foot-slogan-pic1{
+    margin-left: -604px;
+}
+.foot-slogan-pic2{
+    margin-left: -302px;
+}
+.foot-slogan-pic4{
+    margin-left: 302px;
+}
+.footer-nav-box dl{
+    float: left;
+    width: 200px;
+   
+}
+
+.footer-nav-box .dt-icon{
+    width: 100px;
+}
+
+.footer-nav-box dt,
+.coverage h3{
+    font:400 16px/24px "MircoSoft YaHei";
+    height: 34px;
+}
+
+.footer-nav-box dd,
+{
+    line-height: 20px;
+}
+
+.coverage{
+    width: 186px;
+    height:169px;
+    float: right;
+    padding-left: 17px;
+    margin-right: 40px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+
+.coverage a{
+    float: right;
+}
+
+.coverage p{
+    padding-top: 8px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    padding:0 20px 0 30px;
+}
+
+.footer-bottom-link a{
+padding: 0 10px;
+}
+
+.footer-bottom-pic{
+    margin: 10px 0;
+}
+
+.shortcut-nav{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.short-nav-menu{
+    width: 210px;
+    height: 44px;
+    position: relative;
+    z-index:1;
+    background: #b1191a;
+    float: left;
+}
+
+.short-nav-items{
+    height: 44px;
+    width: 730px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.short-nav-items a{
+    width: 40px;
+    height: 40px;
+    font:400 16px/45px "mircosoft Yahei";
+    margin: 0 10px;
+}
+
+.short-nav-images{
+    width: 200px;
+    height: 44px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+
+.nav-all a{
+    display: block;
+    width: 210px;
+    height: 44px;
+    font: 400 15px/44px "mircosoft Yahei";
+    padding: 0 10px;
+    color: #fff;
+}
+
+.nav-one{
+    height: 464px;
+    background: #c81623;
+    margin-top: 2px;
+}
+
+.nav-one div{
+height: 31px;
+font: 400 14px/31px "mircosoft Yahei";
+padding: 0 10px;
+}
+
+.nav-one div:hover{
+    background: #f1f1f1;
+}
+.nav-one div:hover a{
+    color: #b1191a;
+}
+
+.nav-one a{
+color: #f1f1f1;
+}
+.nav-one h3{
+float: left;
+}
+
+.nav-one i{
+    float: right;
+    font: 400 14px/31px "mircosoft Yahei";
+    color: #f1f1f1;
+}
